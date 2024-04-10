@@ -1,0 +1,106 @@
+<html>
+
+<title>login page</title>
+
+<head>
+  <style>
+    body {
+
+      background-image: url("background.jpg");
+
+      background-repeat: no-repeat;
+    }
+
+    .loginform {
+      width: 500px;
+      margin: 250px auto;
+      padding: 20px 10px 20px;
+      background-color: rgb(0, 0, 0, 0.5);
+      color: ghostwhite;
+      font-size: 30px;
+      border-radius: 15px;
+    }
+
+    h2 {
+      text-align: center;
+      color: cornsilk;
+    }
+
+    .loginform label {
+      display: block;
+      font-size: medium;
+    }
+
+    .input input {
+      width: 100%;
+      font-size: 20PX;
+      border: 1px solid;
+      border-radius: 5px;
+      padding: 5px 15;
+      box-sizing: border-box;
+      margin: 5PX 0PX 15PX;
+    }
+
+    input:focus {
+      background-color: rgb(152, 164, 186);
+    }
+
+    .checkbox {
+      text-align: center;
+      font-size: 20px;
+    }
+    .checkbox a {
+      text-decoration: none;
+      color: antiquewhite;
+    }
+
+    .btn {
+      text-align: center;
+    }
+
+    button {
+      background-color: aqua;
+      font-size: 15px;
+      margin-top: 15px;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="">
+    <div class="loginform">
+      <h2>LOGIN</h2>
+
+      <div class="input">
+        <label for="name">NAME:
+          <input type="text"  placeholder="your name" id="username" name="username">
+        </label>
+      </div>
+      <div class="input">
+        <label for="email">EMAIL OR PHONE: 
+        <input type="mail&number" placeholder="your email" id="email">
+        </label>
+      </div>
+      <div class="input">
+        <label for="pwd">PASSWORD:
+        <input type="password" placeholder="Password" id="pwd" character="8" required="autofocus">
+        </label>
+      </div>
+      <div class="checkbox">
+        <input id="checkbox" type="checkbox" required>
+        <lable for="checkbox">I accept all <a href="https://generator.lorem-ipsum.info/terms-and-conditions">terms and
+            conditions</a>
+          </lable>
+      </div>
+      <div class="btn">
+        <button type="submit">
+          <a href="https://web.whatsapp.com/">LOGIN</a>
+        </button>
+      </div>
+  </form>
+  </div>
+
+</body>
+
+</html>
